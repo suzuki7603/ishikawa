@@ -1,0 +1,59 @@
+/*
+Styles for jQuery Plugin Overwrite.
+*/
+
+/* jQuery mmenu Overwrite */
+
+.mm-listview > li:not(.mm-divider):after {
+	left: 0;
+}
+
+.mm-menu {
+	background-color: #f89d07;
+	background-image: none !important;
+	color: #fff;
+}
+
+.mm-menu .mm-header {
+	border-color: #fcbf32;
+}
+
+.mm-menu .mm-header > a {
+	color: #fff;
+}
+
+.mm-menu .mm-header .mm-btn:before,
+.mm-menu .mm-header .mm-btn:after {
+	border-color: #fff;
+}
+
+.mm-menu .mm-listview > li:after {
+	border-color: #fcbf32;
+}
+
+.mm-menu .mm-listview > li > a.mm-prev, .mm-menu .mm-listview > li > a.mm-next {
+	color: #fff;
+}
+
+.mm-menu .mm-listview > li > a.mm-prev:before, .mm-menu .mm-listview > li > a.mm-next:after {
+	border-color: #fcbf32;
+}
+
+.mm-menu .mm-listview > li > a.mm-prev:after, .mm-menu .mm-listview > li > a.mm-next:before {
+	border-color: #fcbf32;
+}
+
+html #wpadminbar,
+#wpadminbar {
+	position: fixed !important;
+}
+
+html.mm-opened body.logged-in {
+	margin-top: -46px;
+}
+
+html.mm-opened body.logged-in #page {
+	position: fixed;
+	top: 46px;
+}
+

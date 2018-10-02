@@ -1,0 +1,279 @@
+# Translation of FSV GALLERY in Japanese
+# This file is distributed under the same license as the FSV GALLERY package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: \n"
+"Project-Id-Version: FSV GALLERY 1.2\n"
+"POT-Creation-Date: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+
+msgid "This theme is designed for the gallery site."
+msgstr ""
+
+msgid "http://www.templateking.jp/"
+msgstr ""
+
+msgid "FSV GALLERY"
+msgstr ""
+
+msgid "FSV GALLERY EDUCATION ORANGE"
+msgstr ""
+
+#: archive.php:31 functions.php:196
+msgid "Daily Archives : %s"
+msgstr ""
+
+#: archive.php:35 functions.php:200
+msgid "Monthly Archives : %s"
+msgstr ""
+
+#: archive.php:35 functions.php:200
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:39 functions.php:204
+msgid "Yearly Archives : %s"
+msgstr ""
+
+#: archive.php:39 functions.php:204
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:43 functions.php:208
+msgid "Author Archives : %s"
+msgstr ""
+
+#: archive.php:47 functions.php:230
+msgid "Category Archives : %s"
+msgstr ""
+
+#: archive.php:51 functions.php:192 search.php:25
+msgid "Search Results for : %s"
+msgstr ""
+
+#: archive.php:55 functions.php:212
+msgid "Tag Archives : %s"
+msgstr ""
+
+#: archive.php:59
+msgid "Archives"
+msgstr ""
+
+#: comments.php:36
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: comments.php:51
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:94 comments.php:102
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:114
+msgid "Name"
+msgstr ""
+
+#: comments.php:116
+msgid "Email"
+msgstr ""
+
+#: comments.php:118
+msgid "Website"
+msgstr ""
+
+#: comments.php:122
+msgid "Comment"
+msgstr ""
+
+#: comments.php:124
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:126
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: content-none.php:19 functions.php:188
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: content-none.php:23
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:39
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-none.php:43
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: functions.php:31
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:137
+msgid "Widget Area 1 (left)"
+msgstr ""
+
+#: functions.php:147
+msgid "Widget Area 2 (center)"
+msgstr ""
+
+#: functions.php:157
+msgid "Widget Area 3 (right)"
+msgstr ""
+
+#: functions.php:139 functions.php:149 functions.php:159
+msgid "This area is used to set the widget to footer"
+msgstr ""
+
+#: functions.php:392
+msgid "Pingback : "
+msgstr ""
+
+#: functions.php:392 functions.php:430 image.php:67 page-sitemap.php:64
+#: page.php:62 single.php:94 single.php:106
+msgid "Edit"
+msgstr ""
+
+#: functions.php:411
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:414
+msgid "Post author"
+msgstr ""
+
+#: functions.php:423
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:430
+msgid "Reply"
+msgstr ""
+
+#: functions.php:451 functions.php:454
+msgid ", "
+msgstr ""
+
+#: functions.php:465
+msgid "View all posts by %s"
+msgstr ""
+
+#: header.php:93
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:55
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: page-sitemap.php:3
+msgid "Sitemap Page Template"
+msgstr ""
+
+#: page-sitemap.php:5
+msgid "Template to create a sitemap page."
+msgstr ""
+
+#: page-sitemap.php:86 sidebar.php:25
+msgid "Category List"
+msgstr ""
+
+#: page-sitemap.php:92
+msgid "Page List"
+msgstr ""
+
+#: sidebar.php:49
+msgid "Monthly Archives"
+msgstr ""
+
+#: sidebar.php:73
+msgid "Recent Posts"
+msgstr ""
+
+#: sidebar.php:98
+msgid "There are currently no posts."
+msgstr ""
+
+#: custom-header.php:63
+msgid "Header Image 001"
+msgstr ""
+
+#: custom-header.php:69
+msgid "Header Image 002"
+msgstr ""
+
+#: custom-header.php:75
+msgid "Header Image 003"
+msgstr ""
+
+#: custom-header.php:81
+msgid "Header Image 004"
+msgstr ""
+
+#: custom-header.php:87
+msgid "Header Image 005"
+msgstr ""
+
+#: theme-options.php:47
+msgid "Light"
+msgstr ""
+
+#: theme-options.php:51
+msgid "Dark"
+msgstr ""
+
+#: theme-options.php:55
+msgid "Pastel"
+msgstr ""
+
+#: theme-options.php:162
+msgid "Color Scheme"
+msgstr ""
+
+#: theme-options.php:172
+msgid "Logo"
+msgstr ""
+
+#: theme-options.php:184
+msgid "Image Logo"
+msgstr ""
+
+#: theme-options.php:191
+msgid "Footer"
+msgstr ""
+
+#: theme-options.php:203
+msgid "Footer Text"
+msgstr ""

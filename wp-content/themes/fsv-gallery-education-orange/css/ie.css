@@ -1,0 +1,48 @@
+/*
+Styles for IE9.
+*/
+#masthead {
+	background-color: #feb630;
+}
+
+body.home #masthead,
+.mm-menu,
+#main-footer {
+	background-color: #f89d07;
+}
+
+.excerpt-title {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 2px;
+	line-height: 1.5;
+	width: 100%;
+	height: 17px;
+}
+
+.excerpt-contents p {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 3px;
+	line-height: 1.8;
+	width: 100%;
+	height: 8px;
+}
+
+.widget_archive select,
+.widget_categories select.postform {
+	background-image: none;
+	padding-right: 10px;
+}
+
+.form_content {
+	display: inline;
+}
+
+#respond form textarea {
+	height: 213px;
+}
+
+form.comment-form p.form-allowed-tags {
+	margin-top: 17px;
+}
