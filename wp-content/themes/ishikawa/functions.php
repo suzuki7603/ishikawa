@@ -87,6 +87,11 @@ require( get_template_directory() . '/inc/custom-header.php' );
  */
 function fsvgallery_scripts_styles() {
 	global $wp_styles;
+	
+	// WordPress本体のjquery.jsを読み込まない
+	wp_deregister_script('jquery');
+	// jQueryの読み込み
+	wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js');
 
 	// Adds JavaScript to pages with the comment form to support
 	// sites with threaded comments (when in use).
@@ -109,6 +114,9 @@ function fsvgallery_scripts_styles() {
 	// Loads the Internet Explorer specific stylesheet.
 	wp_enqueue_style( 'fsvgallery-ie', get_template_directory_uri() . '/css/ie.css', array( 'fsvgallery-style' ), '20141001' );
 	$wp_styles->add_data( 'fsvgallery-ie', 'conditional', 'lt IE 10' );
+	
+	wp_enqueue_style('jquery-bxslider-styles', get_template_directory_uri() . '/css/jquery.bxslider.css');
+	wp_enqueue_script('jquery-bxslider', get_template_directory_uri() . '/js/jquery.bxslider.min.js', array('jquery'), true );
 }
 add_action( 'wp_enqueue_scripts', 'fsvgallery_scripts_styles' );
 

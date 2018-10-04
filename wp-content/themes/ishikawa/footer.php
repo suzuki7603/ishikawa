@@ -29,6 +29,19 @@
 
 </div><!-- #page -->
 
+<script>
+  jQuery(function($){
+    $(function(){
+      $('.bxslider').bxSlider({
+        auto: true, //自動スライドの設定
+        pager: false, //ページャーの表示設定
+        pause: 5000, //自動スライドの待ち時間
+        speed: 1000 //スライドにかかる時間
+      });
+    });
+  });
+</script>
+
 <?php wp_footer(); ?>
 
 </body>

@@ -18,7 +18,7 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 <?php wp_head(); ?>
-
+	
 </head>
 
 <body <?php body_class(); ?>>
@@ -50,7 +50,7 @@
 
 					<?php endif; ?>
 
-					<?php if ( ! is_home() && ! is_front_page() ) : ?>
+					<?php if (! is_front_page() ) : ?>
 
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 
@@ -73,14 +73,17 @@
 	</div><!-- #masthead -->
 
 	<?php if ( ( is_home() || is_front_page() ) && get_header_image() ) : ?>
+	
+	
 
-	<div id="header-image-area" class="header-image" style="background: url('<?php header_image(); ?>') left top no-repeat; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover; -ms-background-size: cover;">
-
-		<div id="img-description">
-
-			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-
-		</div>
+	<div id="header-image-area" class="header-image">
+		
+		<ul class="bxslider">
+			<li><img src="<?php echo get_template_directory_uri() ?>/images/header_001.jpg" /></li>
+			<li><img src="<?php echo get_template_directory_uri() ?>/images/header_002.jpg" /></li>
+			<li><img src="<?php echo get_template_directory_uri() ?>/images/header_003.jpg" /></li>
+			<li><img src="<?php echo get_template_directory_uri() ?>/images/header_004.jpg" /></li>
+		</ul>
 
 	</div><!-- #header-title-area -->
 
